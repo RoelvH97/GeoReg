@@ -21,9 +21,11 @@ The approach recovers a silhouette of the subtracted X-ray using temporal maximu
 
 ## Optimization Progress
 
-Example registration optimization showing convergence:
+Example registration optimization showing convergence for both biplanar views:
 
-![Optimization Progress](assets/optimization_progress.gif)
+| Posteroanterior (PA) View | Lateral (L) View |
+|:-------------------------:|:----------------:|
+| ![PA View](assets/optimization_progress_pa.gif) | ![L View](assets/optimization_progress_l.gif) |
 
 ## Citation
 
