@@ -23,7 +23,7 @@ The approach recovers a silhouette of the subtracted X-ray using temporal maximu
 
 Example registration optimization showing convergence:
 
-![Optimization Progress](outputs/2025-12-02/11-43-17/sub-stroke0001/pre/optimization_progress.mp4)
+![Optimization Progress](assets/optimization_progress.gif)
 
 ## Citation
 

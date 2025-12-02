@@ -31,6 +31,7 @@ wheels/
 *~
 
 # Output files
+outputs/
 
 # OS
 .DS_Store
