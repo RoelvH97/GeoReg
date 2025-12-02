@@ -31,15 +31,17 @@ Example registration optimization showing convergence for both biplanar views:
 
 ## Citation
 
+If you find this work useful, please cite our submission:
+
 ```bibtex
-@inproceedings{vanherten2026georeg,
+@misc{vanherten2025georeg,
   title={Direct biplanar DSA-to-CTA registration with geodesic consistency for acute ischemic stroke},
   author={van Herten, Rudolf L. M. and Graf, Robert and Bitzer, Felix and Kirschke, Jan S. and Paetzold, Johannes C.},
-  booktitle={Medical Imaging with Deep Learning},
-  year={2026}
+  note={Submitted to Medical Imaging with Deep Learning (MIDL) 2026},
+  year={2025}
 }
 ```
 
 ## License
 
-© 2026 CC-BY 4.0
+© 2025 CC-BY 4.0
