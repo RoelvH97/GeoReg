@@ -1,8 +1,8 @@
 data:
-    index: 0.5
+    index: 0
     root: /Users/rvh/Documents/WCM/data/ISLES2024
 model:
-    alpha: 1
+    alpha: 0.5
     criterion_img: MultiscaleNormalizedCrossCorrelation2d
     criterion_img_kwargs:
         patch_sizes: [null, 13]
@@ -13,13 +13,13 @@ model:
     detector_spacing: [1.2, 1.2]
     lambda_so3: 0
     multiplier: 1000
-    num_iter: 500
+    num_iter: 400
     optimizer: Adam
     optimizer_kwargs:
-        lr: 7.5e-3
-    scheduler: StepLR
+        lr: 1e-4
+    scheduler: OneCycleLR
     scheduler_kwargs:
-        step_size: 25
-        gamma: 0.9
-    sigmas: [25.0, 11.0, 25.0]
+        max_lr: 1e-2
+        total_steps: 400
+    sigmas: [25, 11, 25]
     timestamp: pre

@@ -1,6 +1,6 @@
 data:
     index: 0
-    root: /ministorage/roel/nnUNet_raw/Dataset004_ISLES2024
+    root: /Users/rvh/Documents/WCM/data/ISLES2024
 model:
     alpha: 0.5
     criterion_img: MultiscaleNormalizedCrossCorrelation2d
@@ -11,7 +11,7 @@ model:
     detector_dist: 400
     detector_size: [256, 256]
     detector_spacing: [1.2, 1.2]
-    lambda_so3: 0
+    lambda_so3: 0.1
     multiplier: 1000
     num_iter: 400
     optimizer: Adam
@@ -21,5 +21,5 @@ model:
     scheduler_kwargs:
         max_lr: 1e-2
         total_steps: 400
-    sigmas: [1.0, 11.0, 11.0, 11.0]
+    sigmas: [25, 11, 25]
     timestamp: pre
