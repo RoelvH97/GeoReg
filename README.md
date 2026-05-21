@@ -1,8 +1,8 @@
 # GeoReg: Direct Biplanar DSA-to-CTA Registration
 
-This repository contains the implementation for the MIDL 2026 submission:
+This repository contains the implementation for the MIDL 2026 paper:
 
-**"Direct biplanar DSA-to-CTA registration with geodesic consistency for acute ischemic stroke"**
+**["Direct biplanar DSA-to-CTA registration with geodesic consistency for acute ischemic stroke"](https://openreview.net/forum?id=hlaniu1tbq#discussion)**
 *Rudolf L. M. van Herten, Robert Graf, Felix Bitzer, Jan S. Kirschke, Johannes C. Paetzold*
 
 ## Overview
@@ -29,16 +29,21 @@ Example registration optimization showing convergence for both biplanar views:
 **Lateral (L) View**
 ![L View](assets/optimization_progress_l.gif)
 
+## Pretrained Weights
+
+Weights for the cranium segmentation model used to produce the CTA skull masks are available on Zenodo: [10.5281/zenodo.20330403](https://zenodo.org/records/20330403).
+
 ## Citation
 
-If you find this work useful, please cite our submission:
+If you find this work useful, please cite our paper:
 
 ```bibtex
-@misc{vanherten2025georeg,
+@inproceedings{vanherten2026georeg,
   title={Direct biplanar DSA-to-CTA registration with geodesic consistency for acute ischemic stroke},
   author={van Herten, Rudolf L. M. and Graf, Robert and Bitzer, Felix and Kirschke, Jan S. and Paetzold, Johannes C.},
-  note={Submitted to Medical Imaging with Deep Learning (MIDL) 2026},
-  year={2025}
+  booktitle={Medical Imaging with Deep Learning (MIDL)},
+  year={2026},
+  url={https://openreview.net/forum?id=hlaniu1tbq}
 }
 ```
 
