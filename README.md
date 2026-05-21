@@ -31,7 +31,7 @@ Example registration optimization showing convergence for both biplanar views:
 
 ## Pretrained Weights
 
-Weights for the cranium segmentation model used to produce the CTA skull masks are available on Zenodo: [10.5281/zenodo.20330403](https://zenodo.org/records/20330403).
+Weights for the cranium segmentation model used to produce the DSA skull masks are available on Zenodo: [10.5281/zenodo.20330403](https://zenodo.org/records/20330403).
 
 ## Citation
 
