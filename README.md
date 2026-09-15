@@ -5,6 +5,8 @@ This repository contains the implementation for the MIDL 2026 paper:
 **["Direct biplanar DSA-to-CTA registration with geodesic consistency for acute ischemic stroke"](https://openreview.net/forum?id=hlaniu1tbq#discussion)**
 *Rudolf L. M. van Herten, Robert Graf, Felix Bitzer, Jan S. Kirschke, Johannes C. Paetzold*
 
+> **Note:** An updated, population-trained method is available in [GeoPose](https://github.com/RoelvH97/GeoPose), offering substantial improvements in both registration accuracy and speed over GeoReg.
+
 ## Overview
 
 GeoReg provides a direct approach to registering intraoperative Digital Subtraction Angiography (DSA) with pre-procedural Computed Tomography Angiography (CTA) for acute ischemic stroke imaging, **without requiring vessel segmentation**.
